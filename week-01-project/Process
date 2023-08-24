@@ -1,0 +1,14 @@
+
+1. I uploaded all the input files into PowerBI and I'm using the Power Query Feature in PowerBI to Clean the data
+2. I want to normalize the data a bit and here are some of the things I'm doing:
+   a. Creating a new table called Store, it will contain the store ID and the Store Name(i.e. Wimbledon)
+   b. Add the store ID to each existing data(the various tables;Wimbledon and Clapham)
+   c. I used a DAX code to create a custom column for each table by selecting the various day each table belong to:
+         SaleDate =  CALCULATE(
+                               MAX(Dates[Dates]),
+                               FILTER(Dates, WEEKDAY(Dates[Dates], 2) = 3)
+                              )
+     The DAX code above is creating a new column that will filter the Date table for the day of the week which is a Tuesday then the matching 
+      date will be added to the Clapham and Wimbledon table which is a Tuesday. Same process for the rest of the week.
+3. Combine the various Wimbledon data into just one table
+4. Combine the various Clapham data into just one table
