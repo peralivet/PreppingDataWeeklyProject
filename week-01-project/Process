@@ -10,5 +10,16 @@
                               )
      The DAX code above is creating a new column that will filter the Date table for the day of the week which is a Tuesday then the matching 
       date will be added to the Clapham and Wimbledon table which is a Tuesday. Same process for the rest of the week.
-3. Combine the various Wimbledon data into just one table
-4. Combine the various Clapham data into just one table
+3. Combine the various Wimbledon data into just one table "Wimbledon" and remove duplicates using the following Dax code
+   (
+         Wimbledon = DISTINCT(
+                         //This will create a new Wimbledon table and will eliminate Duplicate rows
+                        UNION('Wimbledon Fri','Wimbledon Mon','Wimbledon Tues','Wimbledon Wed','Wimbledon Thurs')
+                           ))
+4. Combine the various Wimbledon data into just one table "Clapham" and remove duplicates using the following Dax code
+   (
+        Clapham = DISTINCT(
+                         //This will create a new Clapham table and will eliminate Duplicate rows
+                        UNION('Clapham Mon','Clapham Tues','Clapham Wed','Clapham Thurs','Clapham Fri')
+                           )
+)
