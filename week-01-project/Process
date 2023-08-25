@@ -1,8 +1,8 @@
 
-1. I uploaded all the input files into PowerBI and I'm using the Power Query Feature in PowerBI to Clean the data
-2. I want to normalize the data a bit and here are some of the things I'm doing:
-   a. Creating a new table called Store, it will contain the store ID and the Store Name(i.e. Wimbledon)
-   b. Add the store ID to each existing data(the various tables;Wimbledon and Clapham)
+1. I uploaded all the input files into Power BI, and I'm using the Power Query feature in Power BI to clean the data.
+2. I  want to normalize the data a bit, and here are some of the things I'm doing:
+      a. Creating a new table called "Store," which will contain the store ID and the store name (e.g., Wimbledon).
+      b. Adding the store ID to each existing dataset (the various tables: Wimbledon and Clapham).
    c. I used a DAX code to create a custom column for each table by selecting the various day each table belong to:
          SaleDate =  CALCULATE(
                                MAX(Dates[Dates]),
@@ -87,6 +87,7 @@ I created a measure for the Weekday % of Store Sales value using this Dax code:
                      )
 
 
-The PowerBI file is attached to the project folder.
+Here is the link to the PowerBI Dashboard for the final output: https://app.powerbi.com/links/i4E4leewHm?ctid=65b52940-f4b6-41bd-833d-3033ecbcf6e1&pbi_source=linkShare
+
 
 
