@@ -1,7 +1,7 @@
 The Process File contains every process I take in finishing this task and the PowerBI file will also be included in this project
 
 
-Here is the link to the PowerBI Dashboard for the final output: https://app.powerbi.com/links/i4E4leewHm?ctid=65b52940-f4b6-41bd-833d-3033ecbcf6e1&pbi_source=linkShare
+Here is the link to the PowerBI Dashboard for the final output:  https://app.powerbi.com/view?r=eyJrIjoiYWRjMzM5MzktNDhiZi00ZWMxLWIzZTAtOWY3NjMzZWNkOGI4IiwidCI6IjczOWFhMmE3LTFiMzktNGIzNS1iNTEzLTQ1NjY5MzQ3YjFjYSJ9
 
 Link to Challenge: https://preppindata.blogspot.com/2019/12/2019-week-45.html 
 
