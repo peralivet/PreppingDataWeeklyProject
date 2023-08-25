@@ -23,3 +23,70 @@
                         UNION('Clapham Mon','Clapham Tues','Clapham Wed','Clapham Thurs','Clapham Fri')
                            )
 )
+
+5. I combined both Wimbledon and Clapham tables using this Dax Code: Both Tables = UNION(Wimbledon,Clapham)
+6. To solve this, 1. Scent 
+                     - 20 rows (21 rows including headers)
+                     - 4 columns:
+                     Store 
+                     Date
+                     Scent % of Store Sales Volumes
+                     Scent % of Store Sales Values
+
+I created a measure for the  Scent % of Store Sales Volumes using this dax code: 
+   Scent % of Store Sales Volumes = 
+   DIVIDE(
+       SUM('Both Tables'[Sales Volume]),
+       CALCULATE(
+           SUM('Both Tables'[Sales Volume]),
+           ALL('Both Tables'[Scent])
+       ),
+       0
+   )
+
+I created a measure for the  Scent % of Store Sales Value using this dax code:
+Scent % of Store Sales Values = 
+DIVIDE(
+    SUM('Both Tables'[Sales Value]),
+    CALCULATE(
+        SUM('Both Tables'[Sales Value]),
+        ALL('Both Tables'[Scent])
+    ),
+    0
+)
+
+7. To solve this,
+               2. Weekday 
+               - 10 rows (11 rows including headers)
+               - 4 columns:
+               Store 
+               Date
+               Weekday % of Store Sales Volumes
+               Weekday % of Store Sales Values
+
+I created a measure for the Weekday % of Store Sales Volumes using this dax code:
+    Scent % of Store Sales Volumes = 
+                     DIVIDE(
+                         SUM('Both Tables'[Sales Volume]),
+                         CALCULATE(
+                             SUM('Both Tables'[Sales Volume]),
+                             ALL('Both Tables'[Scent])
+                         ),
+                         0
+                     )
+
+I created a measure for the Weekday % of Store Sales value using this Dax code:
+   Scent % of Store Sales Values = 
+                     DIVIDE(
+                         SUM('Both Tables'[Sales Value]),
+                         CALCULATE(
+                             SUM('Both Tables'[Sales Value]),
+                             ALL('Both Tables'[Scent])
+                         ),
+                         0
+                     )
+
+
+The PowerBI file is attached to the project folder.
+
+
