@@ -1,7 +1,7 @@
-The Process File contains every process I take in finishing this task and the PowerBI file will also be included in this project
+The Process.md File contains every process I take in finishing this task and the PowerBI file will also be included in this project
 
 
-Here is the link to the PowerBI Dashboard for the final output: [Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiYWRjMzM5MzktNDhiZi00ZWMxLWIzZTAtOWY3NjMzZWNkOGI4IiwidCI6IjczOWFhMmE3LTFiMzktNGIzNS1iNTEzLTQ1NjY5MzQ3YjFjYSJ9)
+Here is the link to the PowerBI Dashboard for the final output: [Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiMGUzOWZkOTYtODg0My00NjJhLTlhYzEtMGVlMDYxZmM2NDA5IiwidCI6IjczOWFhMmE3LTFiMzktNGIzNS1iNTEzLTQ1NjY5MzQ3YjFjYSJ9)
 
 Link to Challenge: [Link](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html) 
 
@@ -9,7 +9,7 @@ The subject for January will be our new (fake) bank -- The Data Source Bank (DSB
 
 ## Input: 
 
-One csv to input this week. You can download it [here](https://drive.google.com/file/d/1oln2ri6nu1wDQfT3gQMLLNlmQ2h6B9d9/view?usp=share_link). 
+One CSV to input this week. You can download it [here](https://drive.google.com/file/d/1oln2ri6nu1wDQfT3gQMLLNlmQ2h6B9d9/view?usp=share_link). 
 
 ![Input File](https://github.com/peralivet/PreppingDataWeeklyProject/blob/b010314ca20cd55ade3426cc058510de612dd02c/week-02-project/images/requiremen1.png)
 
