@@ -7,13 +7,13 @@ Link to Challenge: [Link](https://preppindata.blogspot.com/2023/01/2023-week-1-d
 
 The subject for January will be our new (fake) bank -- The Data Source Bank (DSB). This week we have had a report with a number of transactions that have not just our transactions but other banks' too. Can you help clean up the data?
 
-##Input: 
+## Input: 
 
 One csv to input this week. You can download it [here](https://drive.google.com/file/d/1oln2ri6nu1wDQfT3gQMLLNlmQ2h6B9d9/view?usp=share_link). 
 
 ![Input File](https://github.com/peralivet/PreppingDataWeeklyProject/blob/b010314ca20cd55ade3426cc058510de612dd02c/week-02-project/images/requiremen1.png)
 
-##Requirements
+## Requirements
 
 - Input the data  
 - Split the Transaction Code to extract the letters at the start of the transaction code. These identify the bank that processes the transaction  
@@ -26,9 +26,9 @@ One csv to input this week. You can download it [here](https://drive.google.com/
   - 3. Total Values by Bank and Customer Code
 - Output each data file
 
-##Output
+## Output
 
->Output 1: Total Values of Transactions by each bank
+### Output 1: Total Values of Transactions by each bank
 
 ![Output 1](https://github.com/peralivet/PreppingDataWeeklyProject/blob/b010314ca20cd55ade3426cc058510de612dd02c/week-02-project/images/output1.png)
 
@@ -37,7 +37,7 @@ Two data fields:
   - Value
 3 rows of data (4 including field headers)
 
->Output 2: Total Values by Bank, Day of the Week and Type of Transaction
+### Output 2: Total Values by Bank, Day of the Week and Type of Transaction
 
 ![Output 2](https://github.com/peralivet/PreppingDataWeeklyProject/blob/b010314ca20cd55ade3426cc058510de612dd02c/week-02-project/images/output2.png)
 
@@ -48,7 +48,7 @@ Four data fields:
   - Value
 42 rows of data (43 including field headers)
 
->Output 3: Total Values by Bank and Customer Code
+### Output 3: Total Values by Bank and Customer Code
 
 ![Ouput 3](https://github.com/peralivet/PreppingDataWeeklyProject/blob/b010314ca20cd55ade3426cc058510de612dd02c/week-02-project/images/output3.png)
 
