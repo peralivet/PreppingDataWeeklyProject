@@ -23,3 +23,17 @@
                                   )
                               )
     
+- Change the date to be the day of the week.
+  - I'll create a new column with the day of the week using the switch function after the weekday function extract the week number.
+    - Here's the DAX Code:
+      > Day Of The Week = 
+                          SWITCH (
+                              WEEKDAY('PD 2023 Wk 1 Input'[Transaction Date]),
+                              1, "Sunday",
+                              2, "Monday",
+                              3, "Tuesday",
+                              4, "Wednesday",
+                              5, "Thursday",
+                              6, "Friday",
+                              7, "Saturday"
+                          )
