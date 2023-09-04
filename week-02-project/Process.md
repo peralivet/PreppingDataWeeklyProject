@@ -40,14 +40,14 @@
 
 #### Output
 
-> Output 1: Total Values of Transactions by each bank
+##### Output 1: Total Values of Transactions by each bank
   - To achieve this, I'll use the table visual in the Report View
   - The bank(newly created column) will be the first column of the table visual
   - The sum of values will be the second column
     > ![Output 1 Screenshoot](https://github.com/peralivet/PreppingDataWeeklyProject/blob/25bf345f28a2c638bc1bab4e5a8cd5ccb3790325/week-02-project/images/output1.png)
     
 
-> Output 2: Total Values by Bank, Day of the Week and Type of Transaction
+##### Output 2: Total Values by Bank, Day of the Week and Type of Transaction
   - To achieve this, I'll use the table visual in the Report View
   - The bank(newly created column) will be the first column of the table visual
   - Online or In Person will be the second column
@@ -55,7 +55,7 @@
   - The sum of values will be the last column
     > ![Ouput 2 Screenshot](https://github.com/peralivet/PreppingDataWeeklyProject/blob/25bf345f28a2c638bc1bab4e5a8cd5ccb3790325/week-02-project/images/output2.png)
   
-> Output 3: Total Values by Bank and Customer Code
+##### Output 3: Total Values by Bank and Customer Code
   - To achieve this, I'll use the table visual in the Report View
   - The bank(newly created column) will be the first column of the table visual
   - Customer Code(Not summarized) will be the second column
