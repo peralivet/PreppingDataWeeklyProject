@@ -16,5 +16,5 @@ In the Transactions table, there is a Sort Code field which contains dashes. We 
   - In the power query window, I'm going to click on the transaction table and then the sort code column.
   - Clicking on the add column tab, I'm going to select Column from example.
   - I will type the first two sort codes without the dash and power query will be intelligent enough to remove the dash from the other rows which is like flash fill in Excel
-      > ![Add Column](https://github.com/peralivet/PreppingDataWeeklyProject/blob/ebccd6a753c4860620b831b12ef690ef3e877aa5/week-03-project/image/addcolumn.jpg)
+      > ![Add Column](https://github.com/peralivet/PreppingDataWeeklyProject/blob/5a16b1bda4e0d9bf969498af3f6db2acf1b607a2/week-03-project/image/addcolumn.jpg)
   - I'll rename the column created as 'New Sort Code'
