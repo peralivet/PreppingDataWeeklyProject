@@ -18,3 +18,11 @@ In the Transactions table, there is a Sort Code field which contains dashes. We 
   - I will type the first two sort codes without the dash and power query will be intelligent enough to remove the dash from the other rows which is like flash fill in Excel
       > ![Add Column](https://github.com/peralivet/PreppingDataWeeklyProject/blob/5a16b1bda4e0d9bf969498af3f6db2acf1b607a2/week-03-project/image/addcolumn.jpg)
   - I'll rename the column created as 'New Sort Code'
+
+- Task 2
+Use the SWIFT Bank Code lookup table to bring in additional information about the SWIFT code and Check Digits of the receiving bank account
+  - To solve this, I'm going to use Merge queries as new from the home tab.
+  - I'll select the transaction table as the first and the sort table as the second and select the match columns between them
+    >![Merge](https://github.com/peralivet/PreppingDataWeeklyProject/blob/0f197fd8ed854ede59acca7c6f69033f2171860e/week-03-project/image/merge.jpg)
+  - It will create a new table where I can select only the check digit which will now be contained in a new transaction table
+    > ![Check Digit](https://github.com/peralivet/PreppingDataWeeklyProject/blob/0f197fd8ed854ede59acca7c6f69033f2171860e/week-03-project/image/newtrantable.jpg)
