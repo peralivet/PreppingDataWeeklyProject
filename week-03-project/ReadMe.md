@@ -1,5 +1,6 @@
-The Process.md File contains every process I take in finishing this task and the PowerBI File will also be included in this project
+The Process.md File contains every process I take in finishing this task and the PowerBI Dashboard will also be included in this project
 
+This task was completed using PowerQuery.
 
 Here is the link to the PowerBI Dashboard for the final output: [Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiMTk0ZmIxMzQtZWE0Ni00NjM3LTkxNDctNjBlMzM5M2U3ZGE2IiwidCI6IjczOWFhMmE3LTFiMzktNGIzNS1iNTEzLTQ1NjY5MzQ3YjFjYSJ9)
 
