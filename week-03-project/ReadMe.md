@@ -8,11 +8,15 @@ Link to Challenge: [Link](https://preppindata.blogspot.com/2023/01/2023-week-2-i
 For week 2 of our beginner month, Data Source Bank has a requirement to construct International Bank Account Numbers (IBANs), even for Transactions taking place in the UK.
 We have all the information in separate fields, we just need to put it altogether in the following order:
 
+![Image](https://github.com/peralivet/PreppingDataWeeklyProject/blob/ea41eb0f5a820e8f23b4526f4a7a0af8582c5b22/week-03-project/image/image.png)
+
 ## Inputs
 
-- 1. A list of the transactions, with information about the receiving bank account 
+- 1. A list of the transactions, with information about the receiving bank account
+     >![Input1](https://github.com/peralivet/PreppingDataWeeklyProject/blob/ea41eb0f5a820e8f23b4526f4a7a0af8582c5b22/week-03-project/image/input1.png)
 
 - 2. A lookup table for the SWIFT Bank Codes
+    >![Input1](https://github.com/peralivet/PreppingDataWeeklyProject/blob/ea41eb0f5a820e8f23b4526f4a7a0af8582c5b22/week-03-project/image/input2.png)
 
 ## Requirements
  
@@ -30,6 +34,7 @@ We have all the information in separate fields, we just need to put it altogethe
 
 ## Output
 
+> ![Output](https://github.com/peralivet/PreppingDataWeeklyProject/blob/ea41eb0f5a820e8f23b4526f4a7a0af8582c5b22/week-03-project/image/output.png)
 - 2 fields
 
   - Transaction ID
