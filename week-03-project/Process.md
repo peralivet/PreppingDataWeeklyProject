@@ -38,3 +38,14 @@ Create the IBAN(Countrycode checkdigit bank code sort code account number)
   - To solve this, I'm going to select the following column in this order Countrycode checkdigit bank code sort code account numbers then click on the merge column in the transform tab to create the IBAN number
     >![Merge Column IBAN](https://github.com/peralivet/PreppingDataWeeklyProject/blob/35debaad6a25e23c9f01652ea838eb287ad12807/week-03-project/image/ibanmergecolumn.jpg)
     >![New Table With IBAN](https://github.com/peralivet/PreppingDataWeeklyProject/blob/35debaad6a25e23c9f01652ea838eb287ad12807/week-03-project/image/newiban.jpg)
+
+
+- Task 5
+Remove unnecessary fields
+  - I will remove the sort code and bank column by just selecting them and choosing "remove column"
+ 
+
+#### Output
+
+Here's the final Output
+- ![Final Output](https://github.com/peralivet/PreppingDataWeeklyProject/blob/c86ea8ab10621259487070984adcada23f1cc963/week-03-project/image/finaloutput.jpg)
