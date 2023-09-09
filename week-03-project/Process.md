@@ -26,3 +26,8 @@ Use the SWIFT Bank Code lookup table to bring in additional information about th
     >![Merge](https://github.com/peralivet/PreppingDataWeeklyProject/blob/0f197fd8ed854ede59acca7c6f69033f2171860e/week-03-project/image/merge.jpg)
   - It will create a new table where I can select only the check digit which will now be contained in a new transaction table
     > ![Check Digit](https://github.com/peralivet/PreppingDataWeeklyProject/blob/0f197fd8ed854ede59acca7c6f69033f2171860e/week-03-project/image/newtrantable.jpg)
+
+- Task 3
+Add a field for the Country Code
+  - To solve this, I'll create a new custom column and set the default value to "GB"
+    >![Custom Column](https://github.com/peralivet/PreppingDataWeeklyProject/blob/762752f3914426302bb55efdf61c38250eceef3a/week-03-project/image/customcolumn.jpg)
