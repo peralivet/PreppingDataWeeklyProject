@@ -1,8 +1,8 @@
-This is a project from TheForage. I'm working on a Call Center data set.
+This is a project from TheForage. I'm working on a Call Center data set. Here is the link to the [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWRmMTgwNjQtYjY1ZC00OTllLTlkZTctN2ZjYjMxY2IxYTYyIiwidCI6IjczOWFhMmE3LTFiMzktNGIzNS1iNTEzLTQ1NjY5MzQ3YjFjYSJ9) for my solution
 
 Here is the requirement.
 
-###Introduction 
+### Introduction 
 
 May I introduce myself? I'm Claire, Call Centre Manager here at PhoneNow. My colleague suggested I reach out to you. Pleased to meet you.
 
@@ -16,7 +16,7 @@ Looking forward to hearing from you.
 Best regards,
 Claire
 
-Dashboard
+### Dashboard
 
 Create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. Get creative!
 Possible KPIs include (to get you started, but not limited to):
