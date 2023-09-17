@@ -10,12 +10,14 @@ I'm looking for transparency and insight into the data we have here at the Call 
 I was told you are great at visualising data in such a way that important aspects become very clear. That's precisely what I need.
 
 Could you please prepare a dashboard on Call Centre trends that I can use as a basis for discussion with management? I'lI provide you with the required data, of course.
+
 Looking forward to hearing from you.
 
 Best regards,
 Claire
 
-###Dashboard
+Dashboard
+
 Create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. Get creative!
 Possible KPIs include (to get you started, but not limited to):
     - Overall customer satisfaction
