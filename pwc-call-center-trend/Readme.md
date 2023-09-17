@@ -1,4 +1,6 @@
-This is a project from TheForage. I'm working on a Call Center data set. Here is the link to the [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWRmMTgwNjQtYjY1ZC00OTllLTlkZTctN2ZjYjMxY2IxYTYyIiwidCI6IjczOWFhMmE3LTFiMzktNGIzNS1iNTEzLTQ1NjY5MzQ3YjFjYSJ9) for my solution
+This is a project from TheForage. I'm working on a Call Center data set. Here is the link to the [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWRmMTgwNjQtYjY1ZC00OTllLTlkZTctN2ZjYjMxY2IxYTYyIiwidCI6IjczOWFhMmE3LTFiMzktNGIzNS1iNTEzLTQ1NjY5MzQ3YjFjYSJ9) for my solution.
+
+The steps taken in solving this problem are in the Process.md file.
 
 Here is the requirement.
 
